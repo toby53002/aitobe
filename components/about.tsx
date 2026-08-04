@@ -12,7 +12,7 @@ export function About() {
             <h2 className="text-balance font-heading text-3xl font-extrabold leading-tight text-foreground md:text-4xl">
               ...a mé cestě s AI
             </h2>
-            <div className="mt-6 overflow-hidden rounded-2xl border border-border">
+            <div className="relative mt-6 overflow-hidden rounded-2xl border border-border">
               <Image
                 src="/images/petra.jpg"
                 alt="Petra Vostřelová"
@@ -20,6 +20,12 @@ export function About() {
                 height={452}
                 className="h-full w-full object-cover"
               />
+              <span
+                aria-label="AI generated image"
+                className="absolute bottom-3 right-3 rounded-full border border-white/30 bg-black/55 px-2.5 py-1 text-[0.7rem] font-semibold leading-none tracking-wider text-white backdrop-blur-sm"
+              >
+                AI
+              </span>
             </div>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
               Vysvětluji AI klidně, lidsky a bez tlaku na výkon. U kávy, čaje nebo tam, kde se budete

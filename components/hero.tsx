@@ -61,7 +61,7 @@ export function Hero() {
           </div>
 
           {/* Photo column */}
-          <div className="overflow-hidden rounded-2xl border border-border shadow-[0_24px_70px_-25px_rgb(79_111_74/0.4)]">
+          <div className="relative overflow-hidden rounded-2xl border border-border shadow-[0_24px_70px_-25px_rgb(79_111_74/0.4)]">
             <Image
               src="/images/uvod.jpeg"
               alt="Klidné setkání u kávy a rozhovor o AI"
@@ -70,6 +70,12 @@ export function Hero() {
               priority
               className="h-full w-full object-cover"
             />
+            <span
+              aria-label="AI generated image"
+              className="absolute bottom-3 right-3 rounded-full border border-white/30 bg-black/55 px-2.5 py-1 text-[0.7rem] font-semibold leading-none tracking-wider text-white backdrop-blur-sm"
+            >
+              AI
+            </span>
           </div>
         </div>
       </div>
