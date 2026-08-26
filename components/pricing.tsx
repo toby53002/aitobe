@@ -6,7 +6,7 @@ const plans = [
     title: 'Začátečníci a mírně pokročilí',
     price: '1 500',
     unit: 'Kč',
-    meta: ['1,5 hodiny', 'Pardubice a okolí nebo dle domluvy'],
+    meta: ['2 hodiny', 'Pardubice a okolí nebo dle domluvy'],
     note: 'Pro první seznámení s AI i lepší orientaci v tom, jak ji začít používat.',
     points: [
       'Lepší orientace v možnostech AI',
@@ -20,7 +20,7 @@ const plans = [
     title: 'Pro 60+ a seniory',
     price: '1 200',
     unit: 'Kč',
-    meta: ['1,5 hodiny', 'Pardubice a okolí nebo dle domluvy'],
+    meta: ['2 hodiny', 'Pardubice a okolí nebo dle domluvy'],
     note: 'Klidné a srozumitelné vysvětlení AI vlastním tempem, na příkladech z běžného života.',
     points: [
       'Vlastní tempo a dostatek prostoru',
