@@ -41,7 +41,7 @@ export function About() {
               někoho jiného“.
             </p>
             <p className="leading-relaxed text-muted-foreground">
-              Od začátku roku 2023 používám AI téměř každý den. Postupně jsem zjistila, že když se
+              Od roku 2022 používám AI téměř každý den. Postupně jsem zjistila, že když se
               vysvětlí lidsky, jednoduše a na konkrétních příkladech, může ušetřit spoustu času,
               nervů i zbytečné rutinní práce. Zároveň ale vím, že ne všude se AI hodí – a že někdy je
               správné říct: tady ji raději nepoužívejme.
